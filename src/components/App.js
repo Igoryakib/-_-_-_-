@@ -76,7 +76,7 @@ const App = () => {
             className="input"
             onChange={(event) => setPassword(event.currentTarget.value)}
             value={password}
-            type="text"
+            type="password"
             name="password"
           />
           <input
